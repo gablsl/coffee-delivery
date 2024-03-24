@@ -10,7 +10,7 @@ interface InfoWithIconProps {
 export function InfoWithIcon({ icon, text, iconBg }: InfoWithIconProps) {
   return (
     <InfoWithIconContainer>
-      <IconContainer iconBg={iconBg}>{icon}</IconContainer>
+      <IconContainer iconbg={iconBg}>{icon}</IconContainer>
       {typeof text === 'string' ? <p>{text}</p> : text}
     </InfoWithIconContainer>
   );
