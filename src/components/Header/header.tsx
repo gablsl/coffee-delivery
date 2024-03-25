@@ -5,12 +5,15 @@ import {
   HeaderButtonsContainer,
   HeaderContainer,
 } from './styles';
+import { NavLink } from 'react-router-dom';
 
 export function Header() {
   return (
     <HeaderContainer>
       <div className='container'>
-        <img src={coffeeLogo} />
+        <NavLink to='/'>
+          <img src={coffeeLogo} />
+        </NavLink>
 
         <HeaderButtonsContainer>
           <HeaderButton variant='purple'>
@@ -18,9 +21,11 @@ export function Header() {
             Porto Alegre, RS
           </HeaderButton>
 
-          <HeaderButton variant='yellow'>
-            <ShoppingCart size={20} weight='fill' />
-          </HeaderButton>
+          <NavLink to='/completeOrder'>
+            <HeaderButton variant='yellow'>
+              <ShoppingCart size={20} weight='fill' />
+            </HeaderButton>
+          </NavLink>
         </HeaderButtonsContainer>
       </div>
     </HeaderContainer>
