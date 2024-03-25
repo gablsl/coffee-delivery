@@ -13,3 +13,15 @@ export const DetailsContainer = styled(SectionBaseStyle)`
   display: flex;
   flex-direction: column;
 `;
+
+export const ConfirmationSectionContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 12.8px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+`;
