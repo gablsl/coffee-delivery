@@ -1,5 +1,16 @@
 import styled from 'styled-components';
 
+export const InputWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4.8px;
+  position: relative;
+
+  > p {
+    color: ${({ theme }) => theme.colors['base-error']};
+  }
+`;
+
 export const InputStyleContainer = styled.input`
   height: 42px;
   border-radius: 4px;
