@@ -40,11 +40,32 @@ export const HeaderButton = styled.button<HeaderButtonProps>`
   border: none;
   padding: 0 8px;
   position: relative;
+  cursor: inherit;
   font-size: ${({ theme }) => theme.textSizes['text-regular-s']};
+
+  span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: calc(-20px / 2);
+    right: calc(-20px / 2);
+    color: ${({ theme }) => theme.colors['base-white']};
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+  }
 
   ${({ variant, theme }) => css`
     background: ${theme.colors[`brand-${variant}-light`]};
     color: ${theme.colors[`brand-${variant}-dark`]};
+
+    span {
+      background: ${theme.colors[`brand-${variant}-dark`]};
+    }
   `}
 
   ${({ variant, theme }) =>
