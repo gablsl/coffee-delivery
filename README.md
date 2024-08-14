@@ -1,15 +1,11 @@
 # ☕ Coffee Delivery
 
-> The project was developed during a React.js 2022 track challenge at Ignite.
+> Coffee Delivery is a project developed during the React track of Rocketseat's Ignite course. It simulates an e-commerce platform for a coffee shop,
+where users can explore a variety of coffee shops, add products to the cart, choose a payment method and complete the purchase.
 
 ## 🚀 Demo
 
-![Demo](https://sa-east-1.graphassets.com/clts0no5706bz07kh246tdkzk/clu7a07z7044308kic9n4asca)
-
-## 📝 Description
-
-Coffee Delivery is a project developed during the React track of Rocketseat's Ignite course. It simulates an e-commerce platform for a coffee shop,
-where users can explore a variety of coffee shops, add products to the cart, choose a payment method and complete the purchase.
+[![Demo](https://sa-east-1.graphassets.com/clts0no5706bz07kh246tdkzk/clu7a07z7044308kic9n4asca)](https://coffee-delivery-rose-alpha.vercel.app/)
 
 ## ⚙️ Features
 
