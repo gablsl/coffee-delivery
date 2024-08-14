@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# ☕ Coffee Delivery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> The project was developed during a React.js 2022 track challenge at Ignite.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Demo](https://sa-east-1.graphassets.com/clts0no5706bz07kh246tdkzk/clu7a07z7044308kic9n4asca)
 
-## Expanding the ESLint configuration
+## 📝 Description
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Coffee Delivery is a project developed during the React track of Rocketseat's Ignite course. It simulates an e-commerce platform for a coffee shop,
+where users can explore a variety of coffee shops, add products to the cart, choose a payment method and complete the purchase.
 
-- Configure the top-level `parserOptions` property like this:
+## ⚙️ Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Product catalog:** Displays a list of different types of coffee, with details such as name, price and description. 
+- **Shopping cart:** Allows you to add, remove and adjust the quantity of products.
+- **Address form:** Collects user address information for order delivery.
+- **Order summary:** Mostra um resumo detalhado do pedido, incluindo os produtos selecionados, valores e forma de pagamento.
+- **Order confirmation:** After completing the purchase, a confirmation screen displays with order details and estimated delivery time.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🛠️ Technologies
+
+- React, Styled-Components, React Hook Form, Context API, TypeScript, LocalStorage
+
+## 📦 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+
+2. Install dependencies using npm
+   ```bash
+   npm install
+
+3. Set up environment variables:
+- Create a .env file in the root of the project and add the necessary environment variables.
+
+4. Start the development server
+   ```bash
+   npm run dev
+
+## 🤝 **How to contribue?**
+
+1. Fork the project
+2. Create a new branch: git checkout -b my-new-feature
+3. Make your changes and commit: git commit -m 'Add new feature'
+4. Push to the main branch: git push origin my-new-feature
+5. Open a Pull Request
+
+Developed with ❤️ Gabriel
