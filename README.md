@@ -12,7 +12,7 @@ where users can explore a variety of coffee shops, add products to the cart, cho
 - **Product catalog:** Displays a list of different types of coffee, with details such as name, price and description. 
 - **Shopping cart:** Allows you to add, remove and adjust the quantity of products.
 - **Address form:** Collects user address information for order delivery.
-- **Order summary:** Mostra um resumo detalhado do pedido, incluindo os produtos selecionados, valores e forma de pagamento.
+- **Order summary:** Shows a detailed summary of the order, including selected products, amounts and payment method.
 - **Order confirmation:** After completing the purchase, a confirmation screen displays with order details and estimated delivery time.
 
 ## 🛠️ Technologies
